@@ -35,6 +35,7 @@
                     <navigationItem key="navigationItem" title="Todoey" id="9c4-N8-ARC">
                         <barButtonItem key="backBarButtonItem" title=" " id="DN9-zC-gPb"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="rAs-Kf-5qM">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="kOs-yQ-phF" id="vA8-cf-5hV"/>
                             </connections>
@@ -100,6 +101,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lJa-MN-Ja4">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -115,5 +117,4 @@
             <point key="canvasLocation" x="-26" y="124"/>
         </scene>
     </scenes>
-    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
